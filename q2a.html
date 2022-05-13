@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="q2a.css">
+</head>
+<body>
+    <div class="header-navigation">
+        <div class="home-button">
+            <a href="/home">Home</a>
+        </div>
+        <div class="navigation-links">
+            <a href="/add-walk">Add Walk</a>
+            <a href="/social-events">Social Events</a>
+            <a href="/members">Members</a>
+            <a href="/news">News Items</a>
+            <a href="announcements">Send announcements</a>
+        </div>    
+    </div>
+
+    
+
+    <div class="add-walk-form">
+        <h1>Add Walk</h1>
+
+        <form method="POST "action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+            <label for="nameofwalk">Name of walk:</label><br>
+            <input name="nameofwalk" type="text" id="nameofwalk"><br>
+
+            <label for="date">Date:</label><br>
+            <input name="date" type="date" id="walkdate"><br>
+
+            <label for="walkstarttime">Start time:</label><br>
+            <input name="walkstarttime" type="time" id="walkstarttime"><br>
+
+            <label for="walkendtime">End time:</label><br>
+            <input name="walkendtime" type="time" id="walkendtime"><br>
+
+            <label for="meetingpoint">Meeting point:</label><br>
+            <input name="meetingpoint" type="text" id="meetingpoint"><br>
+
+            <label for="distance">Distance (km):</label><br>
+            <input name="distance" type="number" id="distance"><br>
+
+            <label for="nameofleader">Name of leader:</label><br>
+            <input name="nameofleader" type="text" id="nameofleader"><br>
+
+            <label for="status">Status:</label><br>
+            <input type="text" id="status" value="Not yet approved" disabled><br>
+
+            <input type="text" id="sessionID" value="abcd1234-ee56-ff78-9090" hidden><br>
+
+            <input type="submit" value="Submit">
+            <a href="/walks-inbox"> Cancel </a>
+        </form>
+        
+    </div>
+
+
+</body>
+</html>
