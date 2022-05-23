@@ -1,0 +1,72 @@
+.header-navigation {
+    background-color: aqua;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.header-navigation li {
+    list-style: none;
+    padding-bottom: 5px;
+
+}
+
+.header-navigation a {
+    text-decoration: none;;
+}
+
+.home-button, .navigation-links {
+    display: inline-block;
+}
+
+.home-button {
+    float: left;
+}
+
+
+.navigation-links {
+    float: right;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation-links a {
+    float: left;
+    padding: 10px 12px;
+    
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.home-button a {
+    float: left;
+    padding: 10px 12px;
+    
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+
+    border-style: solid;
+    background-color: azure;
+}
+
+.add-walk-form {
+    padding-left: 10%;
+}
+
+.add-walk-form input {
+   margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .header-navigation,
+  .add-walk-form {
+    display: block;
+  }
+}
